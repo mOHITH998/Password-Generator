@@ -82,24 +82,24 @@ max-width: 100%;
 .footer {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
-  font-weight: 200;
+  font-weight: 600;
   margin-top: 2.2rem;
   font-size: 1.4rem;
-  text-transform: uppercase;
+
 }
 
 .footer a {
-color: #27ae60;
-text-decoration: none;
-background:linear-gradient(#405de6,#5851db,#833ab4,#c13584,#fd1d1d); 
 color: #fff;
-padding: 0.3rem;
-border-radius: 4px;
-text-transform: lowercase !important;
+text-decoration: none;
+font-weight: 100;
 }
 
-.footer a:hover {
- background: linear-gradient(#c13584,#833ab4) ;
+.footer i {
+  color: #c13584;
+}
+
+.footer i:hover {
+ color: #833ab4;
 }
 
 /* @media(max-width: 560px) {

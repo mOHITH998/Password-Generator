@@ -4,8 +4,8 @@ import '../App.css'
 const Footer = () => {
     return (
         <div className='footer'>
-               Created By  <a href='https://www.instagram.com/_mohith98/'>
-            _mohith98
+               Made By: <a href='https://www.instagram.com/_mohith98/'>
+                   Mohith <i className='fab fa-instagram'></i>
             </a>
         </div>
     )
